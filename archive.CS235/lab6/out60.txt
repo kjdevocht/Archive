@@ -1,0 +1,108 @@
+add bob
+add joe
+add jim
+add kevin
+add steph
+add maddie
+add sade
+add scott
+add austin
+add adam
+add megan
+add amanda
+add steven
+add hayley
+add syd
+add lelen
+add steve
+print
+level 0: kevin(5)
+level 1:  austin(4) sade(4)
+level 2:  adam(2) jim(3) maddie(2) steph(3)
+level 3:  amanda(1) bob(2) joe(1) lelen(1) megan(1) scott(1) steven(2)
+level 4:  hayley(1) steve(1) syd(1)
+find bob true
+print
+level 0: kevin(5)
+level 1:  austin(4) sade(4)
+level 2:  adam(2) jim(3) maddie(2) steph(3)
+level 3:  amanda(1) bob(2) joe(1) lelen(1) megan(1) scott(1) steven(2)
+level 4:  hayley(1) steve(1) syd(1)
+find joe true
+print
+level 0: kevin(5)
+level 1:  austin(4) sade(4)
+level 2:  adam(2) jim(3) maddie(2) steph(3)
+level 3:  amanda(1) bob(2) joe(1) lelen(1) megan(1) scott(1) steven(2)
+level 4:  hayley(1) steve(1) syd(1)
+find jim true
+print
+level 0: kevin(5)
+level 1:  austin(4) sade(4)
+level 2:  adam(2) jim(3) maddie(2) steph(3)
+level 3:  amanda(1) bob(2) joe(1) lelen(1) megan(1) scott(1) steven(2)
+level 4:  hayley(1) steve(1) syd(1)
+add a
+print
+level 0: kevin(5)
+level 1:  austin(4) sade(4)
+level 2:  adam(2) jim(3) maddie(2) steph(3)
+level 3:  a(1) amanda(1) bob(2) joe(1) lelen(1) megan(1) scott(1) steven(2)
+level 4:  hayley(1) steve(1) syd(1)
+add b
+print
+level 0: kevin(5)
+level 1:  austin(4) sade(4)
+level 2:  adam(2) jim(3) maddie(2) steph(3)
+level 3:  a(1) amanda(1) bob(2) joe(1) lelen(1) megan(1) scott(1) steven(2)
+level 4:  b(1) hayley(1) steve(1) syd(1)
+add c
+add c
+add z
+add ab
+add ad
+add za
+find za true
+clear
+add apple
+add adam
+add bath
+add bob
+add cup
+add candy
+add candy
+find candy true
+find candy true
+find jim false
+add d
+find jill false
+find c false
+find bob true
+print
+level 0: bob(3)
+level 1:  apple(2) cup(2)
+level 2:  adam(1) bath(1) candy(1) d(1)
+add e
+add f
+add g
+find a false
+add h
+print
+level 0: bob(4)
+level 1:  apple(2) e(3)
+level 2:  adam(1) bath(1) cup(2) g(2)
+level 3:  candy(1) d(1) f(1) h(1)
+add i
+add j
+add k
+print
+level 0: e(4)
+level 1:  bob(3) i(3)
+level 2:  apple(2) cup(2) g(2) j(2)
+level 3:  adam(1) bath(1) candy(1) d(1) f(1) h(1) k(1)
+find jim false
+print
+level 0: e(4)
+level 1:  bob(3) i(3)
+level 2:  apple(2) cup(2) g(2) j(2)
+level 3:  adam(1) bath(1) candy(1) d(1) f(1) h(1) k(1)

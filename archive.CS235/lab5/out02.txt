@@ -1,0 +1,20 @@
+list 4
+insert 0 bob
+insert 1 joe
+insert 0 jim
+insert 0 kevin
+insert 0 stephanie
+insert 0 Madalyn
+insert 0 Sade
+print 
+node 0: Sade Madalyn stephanie 
+node 1: kevin jim 
+node 2: bob joe 
+find joe 6
+remove 0 Sade
+remove 1 stephanie
+remove 0 Madalyn
+print 
+node 0: kevin jim 
+node 1: bob joe 
+find joe 3

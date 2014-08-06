@@ -1,0 +1,6 @@
+boot
+booth
+orbit
+riot
+robot
+root

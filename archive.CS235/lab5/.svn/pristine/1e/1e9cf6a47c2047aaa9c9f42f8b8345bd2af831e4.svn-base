@@ -1,0 +1,18 @@
+list 2
+insert 0 bob
+insert 1 joe
+insert 0 jim
+insert 1 kevin
+insert 2 stephanie
+insert 2 sade
+insert 3 maddie
+print 
+node 0: jim 
+node 1: bob 
+node 2: stephanie maddie 
+node 3: sade 
+node 4: kevin 
+node 5: joe 
+find joe 6
+remove 0 jim
+remove 1 bob

@@ -1,0 +1,41 @@
+list 2
+insert 0 bob
+insert 1 joe
+insert 0 jim
+insert 0 kevin
+insert 0 stephanie
+insert 0 Madalyn
+insert 0 Sade
+print
+find joe
+remove 0
+remove 1
+remove 0
+print
+find joe
+insert 0 bob
+insert 0 jim
+insert 1 kevin
+insert 2 stephanie
+insert 2 sade
+insert 3 maddie
+insert 0 bob
+insert 0 jim
+insert 0 kevin
+insert 0 stephanie
+insert 0 sade
+insert 0 maddie
+insert 4 bob
+insert 55 joe
+insert 11 jim
+insert 9 kevin
+insert 10 stephanie
+insert 5 sade
+insert 5 maddie
+print
+remove 77
+remove 0
+remove 0
+remove 14
+print
+find jill

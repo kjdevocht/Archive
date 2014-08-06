@@ -1,0 +1,6 @@
+size: 16    compares: 8
+size: 32    compares: 16
+size: 64    compares: 32
+This has a big of of O(n)
+
+is it similar to the std::find algorithm and my linear search from lab4

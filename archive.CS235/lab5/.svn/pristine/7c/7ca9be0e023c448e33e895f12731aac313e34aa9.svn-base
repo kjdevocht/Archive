@@ -1,0 +1,86 @@
+list 2
+insert 0 bob
+insert 1 joe
+insert 0 jim
+insert 0 kevin
+insert 0 stephanie
+insert 0 Madalyn
+insert 0 Sade
+print 
+node 0: Sade Madalyn 
+node 1: stephanie 
+node 2: kevin 
+node 3: jim 
+node 4: bob 
+node 5: joe 
+find joe 6
+remove 0 Sade
+remove 1 stephanie
+remove 0 Madalyn
+print 
+node 0: kevin 
+node 1: jim 
+node 2: bob 
+node 3: joe 
+find joe 3
+insert 0 bob
+insert 0 jim
+insert 1 kevin
+insert 2 stephanie
+insert 2 sade
+insert 3 maddie
+insert 0 bob
+insert 0 jim
+insert 0 kevin
+insert 0 stephanie
+insert 0 sade
+insert 0 maddie
+insert 4 bob
+insert 55 joe
+insert 11 jim
+insert 9 kevin
+insert 10 stephanie
+insert 5 sade
+insert 5 maddie
+print 
+node 0: maddie sade 
+node 1: stephanie 
+node 2: kevin 
+node 3: bob 
+node 4: maddie sade 
+node 5: jim 
+node 6: bob 
+node 7: jim 
+node 8: kevin 
+node 9: kevin 
+node 10: stephanie sade 
+node 11: maddie 
+node 12: jim stephanie 
+node 13: bob 
+node 14: kevin 
+node 15: jim 
+node 16: bob 
+node 17: joe 
+remove 77 
+remove 0 maddie
+remove 0 sade
+remove 14 stephanie
+print 
+node 0: stephanie 
+node 1: kevin 
+node 2: bob 
+node 3: maddie sade 
+node 4: jim 
+node 5: bob 
+node 6: jim 
+node 7: kevin 
+node 8: kevin 
+node 9: stephanie sade 
+node 10: maddie 
+node 11: jim 
+node 12: bob 
+node 13: kevin 
+node 14: jim 
+node 15: bob 
+node 16: joe 
+find jill -1

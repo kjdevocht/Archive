@@ -1,0 +1,12 @@
+find joe false
+add joe
+add bob
+add jim
+add kevin
+remove jim
+clear
+print
+clear
+find jim false
+add jim
+add jim

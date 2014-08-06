@@ -1,0 +1,26 @@
+
+add a
+
+print
+add ab
+print
+
+
+add abc
+print
+
+
+add abcd
+print
+
+
+add abcde
+print
+add abcdef
+print
+remove abcd
+print
+remove abcde
+print
+remove abcdef
+print

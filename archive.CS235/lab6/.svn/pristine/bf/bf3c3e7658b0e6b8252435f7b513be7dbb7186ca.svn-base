@@ -1,0 +1,8 @@
+add joe
+add bob
+add jim
+add kevin
+remove jim
+print
+level 0:  joe(2)
+level 1:  bob(1) kevin(1)

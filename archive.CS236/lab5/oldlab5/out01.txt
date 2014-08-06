@@ -1,0 +1,147 @@
+Dependency Graph
+  Q1: R6 
+  Q10: 
+  Q11: 
+  Q2: R4 
+  Q3: 
+  Q4: R5 
+  Q5: R6 
+  Q6: 
+  Q7: 
+  Q8: 
+  Q9: 
+  R1: 
+  R2: R1 R2 R3 
+  R3: R6 
+  R4: R4 
+  R5: 
+  R6: R1 R2 R3 R5 
+
+SmartAncestor(x,'me')?
+
+  Postorder Numbers
+    Q1: 6
+    R1: 1
+    R2: 3
+    R3: 2
+    R5: 4
+    R6: 5
+
+  Rule Evaluation Order
+    R1
+    R3
+    R2
+    R5
+    R6
+
+  Backward Edges
+    R2: R2
+    R3: R6
+
+Sibling('me','Rachel')?
+
+  Postorder Numbers
+    Q2: 2
+    R4: 1
+
+  Rule Evaluation Order
+    R4
+
+  Backward Edges
+    R4: R4
+
+E(E)?
+
+  Postorder Numbers
+    Q3: 1
+
+  Rule Evaluation Order
+
+  Backward Edges
+
+Smart(x)?
+
+  Postorder Numbers
+    Q4: 2
+    R5: 1
+
+  Rule Evaluation Order
+    R5
+
+  Backward Edges
+
+SmartAncestor('me',x)?
+
+  Postorder Numbers
+    Q5: 6
+    R1: 1
+    R2: 3
+    R3: 2
+    R5: 4
+    R6: 5
+
+  Rule Evaluation Order
+    R1
+    R3
+    R2
+    R5
+    R6
+
+  Backward Edges
+    R2: R2
+    R3: R6
+
+E(a)?
+
+  Postorder Numbers
+    Q6: 1
+
+  Rule Evaluation Order
+
+  Backward Edges
+
+E(b)?
+
+  Postorder Numbers
+    Q7: 1
+
+  Rule Evaluation Order
+
+  Backward Edges
+
+E(c)?
+
+  Postorder Numbers
+    Q8: 1
+
+  Rule Evaluation Order
+
+  Backward Edges
+
+E(f)?
+
+  Postorder Numbers
+    Q9: 1
+
+  Rule Evaluation Order
+
+  Backward Edges
+
+E(G)?
+
+  Postorder Numbers
+    Q10: 1
+
+  Rule Evaluation Order
+
+  Backward Edges
+
+E(Y)?
+
+  Postorder Numbers
+    Q11: 1
+
+  Rule Evaluation Order
+
+  Backward Edges
+

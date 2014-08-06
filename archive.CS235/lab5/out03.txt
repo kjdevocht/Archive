@@ -1,0 +1,47 @@
+list 2
+insert 0 bob
+print 
+node 0: bob 
+insert 1 joe
+print 
+node 0: bob joe 
+insert 2 jim
+print 
+node 0: bob 
+node 1: joe jim 
+insert 2 kevin
+print 
+node 0: bob 
+node 1: joe 
+node 2: kevin jim 
+insert 2 stephanie
+print 
+node 0: bob 
+node 1: joe 
+node 2: stephanie kevin 
+node 3: jim 
+insert 2 Madalyn
+print 
+node 0: bob 
+node 1: joe 
+node 2: Madalyn stephanie 
+node 3: kevin 
+node 4: jim 
+insert 2 Sade
+print 
+node 0: bob 
+node 1: joe 
+node 2: Sade Madalyn 
+node 3: stephanie 
+node 4: kevin 
+node 5: jim 
+find joe 1
+remove 0 bob
+remove 1 Sade
+remove 0 joe
+print 
+node 0: Madalyn 
+node 1: stephanie 
+node 2: kevin 
+node 3: jim 
+find joe -1

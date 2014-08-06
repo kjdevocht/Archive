@@ -1,0 +1,4 @@
+add joe
+add bob
+add jim
+print

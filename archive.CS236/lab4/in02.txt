@@ -1,0 +1,30 @@
+Schemes:
+ snap(SS,NN,AA,PP)
+ csg(CC,SS,GG)
+ cp(CC,QQ)
+ cdh(CC,DD,HH)
+ cr(CC,RR)
+ before(CC1,CC2)
+ tthCourses(CC)
+ Schedule(NN,CC,RR,DD,HH)
+ Grades(NN,CC,GG)
+ Students(CC,RR,NN,GG)
+Facts:
+ cdh('CS101','Tu','10AM').
+ cdh('EE200','M','10AM').
+ cdh('EE200','W','1PM').
+ cdh('EE200','F','10AM').
+ cdh('PH100','Th','11AM').
+Rules:
+ before(C1,C2) :- cp(C2,C1).
+ before(C1,C2) :- cp(C3,C1),before(C3,C2).
+ tthCourses(C) :- cdh(C,'Tu',H).
+ tthCourses(C) :- cdh(C,'Th',H).
+ Schedule(N,C,R,D,H) :-
+ snap(S,N,A,P),csg(C,S,G),cr(C,R),cdh(C,D,H).
+ Grades(N,C,G) :- snap(S,N,A,P),csg(C,S,G).
+ Students(C,R,N,G) :-
+ snap(S,N,A,P),csg(C,S,G),cr(C,R).
+Queries:
+ cdh(C,'Tu',H)?
+ tthCourses(C)?

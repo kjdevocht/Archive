@@ -1,0 +1,15 @@
+list 2
+insert 0 bob
+insert 1 joe
+insert 0 jim
+insert 1 kevin
+insert 2 stephanie
+insert 2 sade
+insert 3 maddie
+print
+find joe
+remove 0
+remove 1
+remove 0
+print
+find joe

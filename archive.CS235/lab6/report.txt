@@ -1,0 +1,4 @@
+AVL Tree Set find
+size: 16    compares: 6
+size: 32    compares: 7
+size: 64    compares: 8

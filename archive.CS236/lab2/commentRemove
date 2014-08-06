@@ -1,0 +1,11 @@
+	void stripComments()
+	{
+		for (std::vector<Token*>::iterator it = tokHold.tokenList.begin() ; it != tokHold.tokenList.end(); ++it)
+		{
+			Token temp = **it;
+			if(TokenTypeToString(temp.getTokenType()) == "COMMENT")
+			{
+				tokHold.tokenList.erase(it);
+			}
+		}
+	}

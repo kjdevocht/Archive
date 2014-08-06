@@ -1,0 +1,40 @@
+Selection Sort
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 0
+Insertion Sort
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 0
+Merge Sort
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 0
+Quick Sort
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 0
+std::sort
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 0
+std::list.sort
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 0
+Linear Search
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 1
+Binary Search
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 2
+std::find
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 1
+std::set.find
+size: 0   compares: 0
+size: 0   compares: 0
+size: 1   compares: 1

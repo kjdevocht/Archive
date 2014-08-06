@@ -1,0 +1,74 @@
+Kevin DeVocht
+CS 235 Sec 001
+lab 4
+
+Selection Sort
+size: 16   compares: 120
+size: 32   compares: 496
+size: 64   compares: 2016
+0(n^2)
+the slowest sort algorithm used
+
+Insertion Sort
+size: 16   compares: 69
+size: 32   compares: 238
+size: 64   compares: 923
+0(n^2)
+not quit as bad as selection sort but still pretty slow
+
+Merge Sort
+size: 16   compares: 46
+size: 32   compares: 119
+size: 64   compares: 300
+0(n log n)
+appears to be the quickest sort method used
+
+Quick Sort
+size: 16   compares: 103
+size: 32   compares: 280
+size: 64   compares: 597
+0(n log n)
+not so quick probably because I did not use a median to find my pivot
+
+std::sort
+size: 16   compares: 74
+size: 32   compares: 177
+size: 64   compares: 545
+0(n log n)
+my merge sort appears to be faster than this.  It is probably quick sort
+
+std::list.sort
+size: 16   compares: 46
+size: 32   compares: 119
+size: 64   compares: 300
+0(n log n)
+appears that lists sort faster than vectors.  identical to merge sort which is probably what they used
+
+Linear Search
+size: 16   compares: 8
+size: 32   compares: 16
+size: 64   compares: 32
+0(n)
+exact same as find,  I guess find is just linear search
+
+Binary Search
+size: 16   compares: 5
+size: 32   compares: 6
+size: 64   compares: 8
+0(log n)
+just as fast as set.find but on a vector but again it had to be sorted
+
+std::find
+size: 16   compares: 8
+size: 32   compares: 16
+size: 64   compares: 32
+0(n)
+again the exact same as my linear search
+
+std::set.find
+size: 16   compares: 5
+size: 32   compares: 6
+size: 64   compares: 7
+0(log n)
+the fasted search method used it is porbably binary search because a set is already sorted
+

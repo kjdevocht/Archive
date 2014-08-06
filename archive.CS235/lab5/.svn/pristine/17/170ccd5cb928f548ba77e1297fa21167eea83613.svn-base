@@ -1,0 +1,25 @@
+list 2
+
+insert 0 bob
+
+insert 1 joe
+
+insert 0 jim
+
+insert 0 kevin
+insert 0 stephanie
+insert 0 Madalyn
+insert 0 Sade
+print
+
+find joe
+
+remove 0
+
+remove 1
+
+remove 0
+
+print
+
+find joe

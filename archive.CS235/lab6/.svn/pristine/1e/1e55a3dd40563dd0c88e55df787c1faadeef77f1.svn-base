@@ -1,0 +1,40 @@
+add a
+print
+level 0: a(1)
+add ab
+print
+level 0: a(2)
+level 1:  ab(1)
+add abc
+print
+level 0: ab(2)
+level 1:  a(1) abc(1)
+add abcd
+print
+level 0: ab(3)
+level 1:  a(1) abc(2)
+level 2:  abcd(1)
+add abcde
+print
+level 0: ab(3)
+level 1:  a(1) abcd(2)
+level 2:  abc(1) abcde(1)
+add abcdef
+print
+level 0: abcd(3)
+level 1:  ab(2) abcde(2)
+level 2:  a(1) abc(1) abcdef(1)
+remove abcd
+print
+level 0: abcde(3)
+level 1:  ab(2) abcdef(1)
+level 2:  a(1) abc(1)
+remove abcde
+print
+level 0: ab(3)
+level 1:  a(1) abcdef(2)
+level 2:  abc(1)
+remove abcdef
+print
+level 0: ab(2)
+level 1:  a(1) abc(1)

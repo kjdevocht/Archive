@@ -1,0 +1,451 @@
+/*tree_set.h -lab6 - Kevin DeVocht*/
+#pragma once
+
+
+#include <fstream>
+#include <algorithm>
+#include <string>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <ctype.h>
+#include <stdio.h>
+#include <math.h>
+#include "linked_array_list.h"
+
+using namespace std;
+
+template <typename ItemType>
+
+class AVLTreeSet 
+{
+
+
+  class Node 
+  {
+    ItemType item;
+    Node* left;
+    Node* right;
+    int height;
+    
+   public:
+    Node(ItemType item0) : item(item0), left(NULL), right(NULL), height(1)
+    {}
+
+    
+    Node* get_left() const
+    {
+		return left;
+	}
+	
+	Node* get_right() const
+	{
+		return right;
+	}
+	Node* find_smallest()
+	{
+		if (this->left ==NULL)
+		{
+			return this;
+		}
+		else
+		{
+			this->left->find_smallest();
+		}
+	}
+	
+	int get_height() const
+	{
+		if( this == NULL)
+		{
+			return 0;
+		}
+		else
+		{
+			return height;
+		}
+	}
+	ItemType get_item() const
+	{
+		return item;
+	}
+	
+	void set_left(Node* new_left)
+	{
+		left = new_left;
+	}
+	
+	void set_right(Node* new_right)
+	{
+			right = new_right;
+	}
+	
+	void set_height(Node* node)
+	{
+		height = max(node->left->get_height(), node->right->get_height())+1;
+	}
+	
+	void set_item(ItemType new_item)
+	{
+		item = new_item;
+	}
+  };
+
+
+  Node* root;
+  int size;
+  
+public:
+AVLTreeSet(Node* root0) : root(root0), size(0)
+{}
+
+~AVLTreeSet()
+{
+	this->clear();
+}
+
+int get_size() const
+{
+	return size;
+}
+
+void clear()
+{
+	while(root != NULL)
+	{
+		cout<<"clear: root before remove "<<root->get_item()<<endl;
+		root = real_remove(root, root->get_item());
+		if(root != NULL)
+		{
+			cout<<"clear: the current root "<<root->get_item()<<endl;
+		}
+		else
+		{
+		cout<<"clear: the current root NULL"<<endl;
+		}
+	}
+}
+
+  Node* real_add(Node* node, const ItemType& item) 
+  {
+
+	if (node == NULL)
+	{
+		size++;
+		Node* new_node = new Node(item);
+		return new_node;
+	}
+	else if (item < node->get_item())
+	{
+		node->set_left(real_add(node->get_left(), item));
+		node = balance(node);
+		node->set_height(node);
+
+		return node;
+		
+		
+		
+	}
+	else if (item >node->get_item())
+	{
+		node->set_right(real_add(node->get_right(), item));
+		node = balance(node);
+		node->set_height(node);
+		return node;
+	}
+	else
+	{
+		return node;
+	}
+
+  }
+
+void add(const ItemType& item)
+{
+	root = real_add(root, item);
+}
+void print(ofstream& out)
+{	
+	if (root == NULL)
+	{
+		return;
+	}
+	real_print(out, root);
+	out<<endl;
+}	
+
+void real_print(ofstream& out, Node* node)
+{
+	int level = 0;
+	int line_count = 0;
+	LinkedArrayList<Node*>* print = new LinkedArrayList<Node*>(4);
+	LinkedArrayList<Node*>* print_queue = new LinkedArrayList<Node*>(4);
+	print->insert(0, node);
+
+	out<<"level "<<level<<": ";
+
+	while(print->get_size() != 0)
+	{
+		node = print->remove(0);
+		line_count++;
+		if (node->get_left() != NULL)
+		{
+			print_queue->insert(print_queue->get_size(), node->get_left());
+		}
+		if (node->get_right() != NULL)
+		{
+			print_queue->insert(print_queue->get_size(), node->get_right());
+		}
+		out<<" "<<node->get_item()<<"("<<node->get_height()<<")";
+		if (line_count > 8)
+		{
+			out<<endl<<"level "<<level<<": ";
+		}
+
+		if (print->get_size() == 0 && print_queue->get_size() != 0)
+		{
+			delete print;
+			print = print_queue;
+			print_queue = new LinkedArrayList<Node*>(4);
+			level++;
+			line_count = 0;
+			out<<endl<<"level "<<level<<": ";
+		}	
+	}
+	delete print;
+	delete print_queue;
+}
+
+
+
+//Contract: real_remove: Node* + item ->
+Node* real_remove(Node* node, const ItemType& item)
+{
+cout<<"Entering real remove and trying to remove "<<item<<endl;
+	//check to see if you should go left
+	if (item < node->get_item())
+	{
+		cout<<"real_remove:  the current node's item is larger than the item we are looking for so go left"<<endl;
+		if (node->get_left() == NULL)
+		{
+		cout<<"real_remove:  should go left but is NULL item not in set"<<endl;
+			return node;
+		}
+		else
+		{
+		cout<<"real_remove:  going left"<<endl;
+			node->set_left(real_remove(node->get_left(), item));
+			node = balance(node);
+			node->set_height(node);
+			return node;
+		}
+	}
+	//check to see if you should go right
+	else if (item > node->get_item())
+	{
+	cout<<"real_remove:  the current node's item is smaller than the item we are looking for so go right"<<endl;
+		if (node->get_right() == NULL)
+		{
+		cout<<"real_remove:  should go right but is NULL item not in set"<<endl;
+			return node;
+		}
+		else
+		{
+		cout<<"real_remove:  going right"<<endl;
+			node->set_right(real_remove(node->get_right(), item));
+			node = balance(node);
+			node->set_height(node);
+			return node;
+		}
+	}
+	//you have found what you are looking for
+	else
+	{
+		cout<<"real_remove: current node's item is the one you are looking for"<<endl;
+		//Both children are NULL
+		if (node->get_left() == NULL && node->get_right() == NULL)
+		{
+			cout<<"real_remove:  both children are NULL"<<endl;
+			cout<<"rea_remove: what you are about to delete "<<node->get_item()<<endl;
+			delete node;
+			cout<<"real_remove: Deleted node with no children"<<endl;
+			size--;
+			return NULL;
+		}
+		//The left child is NULL but there is a right child
+		else if( node->get_left() == NULL && node->get_right() != NULL)
+		{
+		cout<<"real_remove:  right child only"<<endl;
+			Node* temp;
+			temp = node->get_right();
+			cout<<"rea_remove: what you are about to delete "<<node->get_item()<<endl;
+			delete node;
+			cout<<"real_remove: Deleted node with a right child"<<endl;
+			size--;
+			return temp;
+		}
+		//There is a left child but the right child is NULL
+		else if(node->get_left() != NULL && node->get_right() == NULL)
+		{
+		cout<<"real_remove:  left child only"<<endl;
+			Node* temp;
+			temp = node->get_left();
+			cout<<"real_remove: what you are about to delete "<<node->get_item()<<endl;
+			delete node;
+			cout<<"real_remove: Deleted node with a left child"<<endl;
+			size--;
+			return temp;			
+		}
+		//This node has 2 children
+		else
+		{
+		cout<<"real_remove:  two children"<<endl;
+			ItemType temp;
+			temp = node->get_right()->find_smallest()->get_item();
+			remove(temp);
+			node->set_item(temp);
+			node = balance(node);
+			node->set_height(node);
+			size--;
+			return node;
+		}
+	}
+	
+}
+//Contract: remove: item->nothing
+//Purpose: to call real_remove to remove a given item from the set
+  void remove(const ItemType& item) 
+  {
+	  if (root == NULL)
+	  {
+		  return;
+	  }
+	  else
+	  {
+		root = real_remove(root, item);
+	}
+  }
+
+
+//Contract: find: item->bool
+//Purpose: To see if a given item is in the AVL tree
+  bool real_find(Node* node, const ItemType& item) 
+  {
+	if (item < node->get_item())
+    {
+		if(node->get_left() == NULL)
+		{
+			return false;
+		}
+		else
+		{
+			real_find(node->get_left(), item);
+		}
+	}
+	else if (item > node->get_item())
+	{
+		if (node->get_right() ==NULL)
+		{
+			return false;
+		}
+		else
+		{
+			real_find(node->get_right(), item);
+		}
+	}
+	else
+	{
+		return true;
+	}
+  }
+  
+  bool find(const ItemType& item)
+  {
+	  if(root == NULL)
+	  {
+		 return false;
+	  }
+	  return real_find(root, item);
+  }
+
+Node* balance(Node* node)
+{
+	if (node->get_left()->get_height()-node->get_right()->get_height() > 1)
+	{
+		node = push_right(node);
+		return node;
+	}
+	else if (node->get_right()->get_height()-node->get_left()->get_height() > 1)
+	{
+		node = push_left(node);
+		return node;
+	}
+	else
+	{
+		return node;
+	}
+}
+
+Node* push_right(Node* node)
+{
+	
+	//double rotate
+	if( node->get_left()->get_right()->get_height() > node->get_left()->get_left()->get_height())
+	{
+		node->set_left(rotate_left(node->get_left()));
+		return rotate_right(node);
+	}
+	//single rotate right
+	else 
+	{
+		return rotate_right(node);
+	}
+}
+
+Node* push_left(Node* node)
+{
+	//double rotate
+	//not right fix before using 
+	if( node->get_right()->get_left()->get_height() > node->get_right()->get_right()->get_height())
+	{	
+		node->set_right(rotate_right(node->get_right()));
+		return rotate_left(node);
+		
+	}
+	//single rotate left
+	else 
+	{
+		return rotate_left(node);
+	}	
+}
+
+//Contract:  rotate_right: Node* -> Node*
+//Purpose to conduct a single right rotate
+Node* rotate_right (Node* node)
+{
+	Node* temp = NULL;
+	
+	temp = node->get_left();
+	node->set_left(temp->get_right());
+	temp->set_right(node);
+	temp->get_right()->set_height(temp->get_right());
+	temp->set_height(temp);
+	return temp;	
+}
+//Contract:  rotate_left: Node* -> Node*
+//Purpose to conduct a single left rotate
+Node* rotate_left (Node* node)
+{
+	Node* temp = NULL;
+	
+	temp = node->get_right();
+	node->set_right(temp->get_left());
+	temp->set_left(node);
+	temp->get_left()->set_height(temp->get_left());
+	temp->set_height(temp);
+	return temp;	
+}
+
+
+
+};
