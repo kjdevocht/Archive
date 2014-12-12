@@ -1,0 +1,19 @@
+Chrome must be ran without security to prevent cross origin issues
+
+./chromeCommand
+
+run the python web server
+
+python run.py
+
+run the catan server
+
+ant server
+
+open the html file with chrome
+
+testing.html
+
+
+-Curtis
+

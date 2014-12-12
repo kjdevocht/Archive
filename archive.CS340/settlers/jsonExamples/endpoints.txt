@@ -1,0 +1,3 @@
+/hello/greet HelloHandler
+/hello/dismiss GoodbyeHandler
+/hello/text TestHandler

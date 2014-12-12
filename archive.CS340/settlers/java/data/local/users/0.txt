@@ -1,0 +1,5 @@
+<server.model.game.User>
+  <id>0</id>
+  <name>boa</name>
+  <password>12345</password>
+</server.model.game.User>

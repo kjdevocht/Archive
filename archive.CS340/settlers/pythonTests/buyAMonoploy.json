@@ -1,0 +1,326 @@
+[
+  {
+    "roadLocation": {
+      "direction": "NE",
+      "x": -1,
+      "y": 0
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 0
+  },
+  {
+    "vertexLocation": {
+      "direction": "NE",
+      "x": -1,
+      "y": 0
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 0
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 0
+  },
+  {
+    "roadLocation": {
+      "direction": "NE",
+      "x": 0,
+      "y": -1
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 1
+  },
+  {
+    "vertexLocation": {
+      "direction": "NE",
+      "x": 0,
+      "y": -1
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 1
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 1
+  },
+  {
+    "roadLocation": {
+      "direction": "NE",
+      "x": -2,
+      "y": 1
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 2
+  },
+  {
+    "vertexLocation": {
+      "direction": "NE",
+      "x": -2,
+      "y": 1
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 2
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 2
+  },
+  {
+    "roadLocation": {
+      "direction": "NE",
+      "x": -1,
+      "y": 1
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 3
+  },
+  {
+    "vertexLocation": {
+      "direction": "NW",
+      "x": 0,
+      "y": 1
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 3
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 3
+  },
+  {
+    "roadLocation": {
+      "direction": "N",
+      "x": 2,
+      "y": 0
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 3
+  },
+  {
+    "vertexLocation": {
+      "direction": "NE",
+      "x": 2,
+      "y": 0
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 3
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 3
+  },
+  {
+    "roadLocation": {
+      "direction": "NW",
+      "x": 3,
+      "y": -2
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 2
+  },
+  {
+    "vertexLocation": {
+      "direction": "NW",
+      "x": 3,
+      "y": -2
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 2
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 2
+  },
+  {
+    "roadLocation": {
+      "direction": "NW",
+      "x": -1,
+      "y": 2
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 1
+  },
+  {
+    "vertexLocation": {
+      "direction": "NE",
+      "x": -2,
+      "y": 3
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 1
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 1
+  },
+  {
+    "roadLocation": {
+      "direction": "N",
+      "x": 1,
+      "y": 2
+    },
+    "free": true,
+    "type": "buildRoad",
+    "playerIndex": 0
+  },
+  {
+    "vertexLocation": {
+      "direction": "NE",
+      "x": 1,
+      "y": 2
+    },
+    "free": true,
+    "type": "buildSettlement",
+    "playerIndex": 0
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 0
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 0
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 0
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 1
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 1
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 2
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 2
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 3
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 3
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 0
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 0
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 1
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 1
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 2
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 2
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 3
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 3
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 0
+  },
+  {
+    "type": "maritimeTrade",
+    "playerIndex": 0,
+    "ratio": 3,
+    "inputResource": "sheep",
+    "outputResource": "ore"
+  },
+  {
+    "type": "maritimeTrade",
+    "playerIndex": 0,
+    "ratio": 3,
+    "inputResource": "sheep",
+    "outputResource": "wheat"
+  },
+  {
+    "card": "monopoly",
+    "type": "buyDevCard",
+    "playerIndex": 0
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 0
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 1
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 1
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 2
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 2
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 3
+  },
+  {
+    "type": "finishTurn",
+    "playerIndex": 3
+  },
+  {
+    "number": 10,
+    "type": "rollNumber",
+    "playerIndex": 0
+  }
+]

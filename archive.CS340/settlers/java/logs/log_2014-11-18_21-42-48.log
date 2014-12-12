@@ -1,0 +1,4 @@
+Nov 18, 2014 9:42:48 PM client.main.Catan initializeLog
+INFO: Catan Client started at 2014-11-18_21-42-48.
+Nov 18, 2014 9:43:05 PM shared.model.ServerModelFacade finishTurn
+FINE: Player player4 ended turn.

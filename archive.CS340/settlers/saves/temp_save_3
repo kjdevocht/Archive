@@ -1,0 +1,3274 @@
+<cs340.model.GameSave>
+  <game>
+    <title>test_game_1</title>
+    <model>
+      <deck>
+        <yearOfPlenty>2</yearOfPlenty>
+        <monopoly>2</monopoly>
+        <soldier>14</soldier>
+        <roadBuilding>2</roadBuilding>
+        <monument>5</monument>
+      </deck>
+      <map>
+        <hexGrid>
+          <hexes>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.DesertHex>
+                <location>
+                  <x>0</x>
+                  <y>-2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>1</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+              </cs340.model.map.DesertHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>-2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[4]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.DesertHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Brick</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>2</x>
+                  <y>-2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[4]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>2</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>2</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>0</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Brick</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>0</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Ore</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>2</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>3</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>3</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-2</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>2</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Ore</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>2</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>3</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>3</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Brick</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>2</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-2</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[5]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>0</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[5]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>0</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-2</x>
+                  <y>2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.map.Settlement">
+                      <ownerIndex>1</ownerIndex>
+                      <worth>1</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.map.Road">
+                      <ownerIndex>1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Ore</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+          </hexes>
+          <offsets>
+            <int>2</int>
+            <int>1</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+          </offsets>
+          <radius>3</radius>
+          <x0>2</x0>
+          <y0>2</y0>
+        </hexGrid>
+        <radius>3</radius>
+        <numbers>
+          <entry>
+            <int>2</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-2</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>3</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>4</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>-2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>5</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-2</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>6</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-2</x>
+                <y>2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>2</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>8</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>9</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>10</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>11</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>2</x>
+                <y>-2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>12</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>2</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+        </numbers>
+        <ports>
+          <cs340.model.map.Port>
+            <location>
+              <x>2</x>
+              <y>1</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>2</x>
+              <y>1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">W</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>2</x>
+              <y>1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+            </validVertex2>
+            <orientation>NW</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-3</x>
+              <y>2</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Wood</inputResource>
+            <validVertex1>
+              <x>-3</x>
+              <y>2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-3</x>
+              <y>2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">E</direction>
+            </validVertex2>
+            <orientation>NE</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>1</x>
+              <y>-3</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Ore</inputResource>
+            <validVertex1>
+              <x>1</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>1</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SW</direction>
+            </validVertex2>
+            <orientation>S</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>3</x>
+              <y>-1</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Sheep</inputResource>
+            <validVertex1>
+              <x>3</x>
+              <y>-1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">W</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>3</x>
+              <y>-1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+            </validVertex2>
+            <orientation>NW</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-3</x>
+              <y>0</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>-3</x>
+              <y>0</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">E</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-3</x>
+              <y>0</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SE</direction>
+            </validVertex2>
+            <orientation>SE</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-1</x>
+              <y>-2</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Wheat</inputResource>
+            <validVertex1>
+              <x>-1</x>
+              <y>-2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-1</x>
+              <y>-2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SW</direction>
+            </validVertex2>
+            <orientation>S</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>3</x>
+              <y>-3</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>3</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SW</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>3</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">W</direction>
+            </validVertex2>
+            <orientation>SW</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>0</x>
+              <y>3</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>0</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>0</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+            </validVertex2>
+            <orientation>N</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-2</x>
+              <y>3</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Brick</inputResource>
+            <validVertex1>
+              <x>-2</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-2</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">E</direction>
+            </validVertex2>
+            <orientation>NE</orientation>
+          </cs340.model.map.Port>
+        </ports>
+        <robber>
+          <x>0</x>
+          <y>-2</y>
+        </robber>
+      </map>
+      <players>
+        <cs340.model.player.Player>
+          <MAX__GAME__POINTS>10</MAX__GAME__POINTS>
+          <resources>
+            <brick>0</brick>
+            <wood>0</wood>
+            <sheep>10</sheep>
+            <wheat>1</wheat>
+            <ore>1</ore>
+          </resources>
+          <oldDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </oldDevCards>
+          <newDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </newDevCards>
+          <roads>13</roads>
+          <cities>4</cities>
+          <settlements>3</settlements>
+          <soldiers>0</soldiers>
+          <victoryPoints>2</victoryPoints>
+          <monuments>0</monuments>
+          <longestRoad>false</longestRoad>
+          <largestArmy>false</largestArmy>
+          <playedDevCard>false</playedDevCard>
+          <discarded>false</discarded>
+          <playerID>12</playerID>
+          <playerIndex>0</playerIndex>
+          <name>player1</name>
+          <color>red</color>
+        </cs340.model.player.Player>
+        <cs340.model.player.Player>
+          <MAX__GAME__POINTS>10</MAX__GAME__POINTS>
+          <resources>
+            <brick>0</brick>
+            <wood>1</wood>
+            <sheep>0</sheep>
+            <wheat>0</wheat>
+            <ore>1</ore>
+          </resources>
+          <oldDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </oldDevCards>
+          <newDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </newDevCards>
+          <roads>13</roads>
+          <cities>4</cities>
+          <settlements>3</settlements>
+          <soldiers>0</soldiers>
+          <victoryPoints>2</victoryPoints>
+          <monuments>0</monuments>
+          <longestRoad>false</longestRoad>
+          <largestArmy>false</largestArmy>
+          <playedDevCard>false</playedDevCard>
+          <discarded>false</discarded>
+          <playerID>13</playerID>
+          <playerIndex>1</playerIndex>
+          <name>player2</name>
+          <color>blue</color>
+        </cs340.model.player.Player>
+        <cs340.model.player.Player>
+          <MAX__GAME__POINTS>10</MAX__GAME__POINTS>
+          <resources>
+            <brick>0</brick>
+            <wood>1</wood>
+            <sheep>7</sheep>
+            <wheat>0</wheat>
+            <ore>0</ore>
+          </resources>
+          <oldDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </oldDevCards>
+          <newDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </newDevCards>
+          <roads>13</roads>
+          <cities>4</cities>
+          <settlements>3</settlements>
+          <soldiers>0</soldiers>
+          <victoryPoints>2</victoryPoints>
+          <monuments>0</monuments>
+          <longestRoad>false</longestRoad>
+          <largestArmy>false</largestArmy>
+          <playedDevCard>false</playedDevCard>
+          <discarded>false</discarded>
+          <playerID>14</playerID>
+          <playerIndex>2</playerIndex>
+          <name>player3</name>
+          <color>green</color>
+        </cs340.model.player.Player>
+        <cs340.model.player.Player>
+          <MAX__GAME__POINTS>10</MAX__GAME__POINTS>
+          <resources>
+            <brick>0</brick>
+            <wood>0</wood>
+            <sheep>1</sheep>
+            <wheat>1</wheat>
+            <ore>0</ore>
+          </resources>
+          <oldDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </oldDevCards>
+          <newDevCards>
+            <yearOfPlenty>0</yearOfPlenty>
+            <monopoly>0</monopoly>
+            <soldier>0</soldier>
+            <roadBuilding>0</roadBuilding>
+            <monument>0</monument>
+          </newDevCards>
+          <roads>13</roads>
+          <cities>4</cities>
+          <settlements>3</settlements>
+          <soldiers>0</soldiers>
+          <victoryPoints>2</victoryPoints>
+          <monuments>0</monuments>
+          <longestRoad>false</longestRoad>
+          <largestArmy>false</largestArmy>
+          <playedDevCard>false</playedDevCard>
+          <discarded>false</discarded>
+          <playerID>15</playerID>
+          <playerIndex>3</playerIndex>
+          <name>player4</name>
+          <color>puce</color>
+        </cs340.model.player.Player>
+      </players>
+      <log>
+        <lines>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4 built a road</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4 built a settlement</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player3</source>
+            <message>player3 built a road</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player3</source>
+            <message>player3 built a settlement</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player3</source>
+            <message>player3&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player2</source>
+            <message>player2 built a road</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player2</source>
+            <message>player2 built a settlement</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player2</source>
+            <message>player2&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1 built a road</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1 built a settlement</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player2</source>
+            <message>player2 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player2</source>
+            <message>player2&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player3</source>
+            <message>player3 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player3</source>
+            <message>player3&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player2</source>
+            <message>player2 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player2</source>
+            <message>player2&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player3</source>
+            <message>player3 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player3</source>
+            <message>player3&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player4</source>
+            <message>player4&apos;s turn just ended</message>
+          </cs340.model.message.MessageLine>
+          <cs340.model.message.MessageLine>
+            <source>player1</source>
+            <message>player1 rolled a 10.</message>
+          </cs340.model.message.MessageLine>
+        </lines>
+      </log>
+      <chat>
+        <lines/>
+      </chat>
+      <bank>
+        <brick>24</brick>
+        <wood>22</wood>
+        <sheep>6</sheep>
+        <wheat>22</wheat>
+        <ore>22</ore>
+      </bank>
+      <turnTracker>
+        <status>Playing</status>
+        <currentTurn>0</currentTurn>
+        <longestRoad>-1</longestRoad>
+        <largestArmy>-1</largestArmy>
+      </turnTracker>
+      <winner>-1</winner>
+      <version>43</version>
+    </model>
+    <start>
+      <deck>
+        <yearOfPlenty>2</yearOfPlenty>
+        <monopoly>2</monopoly>
+        <soldier>14</soldier>
+        <roadBuilding>2</roadBuilding>
+        <monument>5</monument>
+      </deck>
+      <map>
+        <hexGrid>
+          <hexes>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.DesertHex>
+                <location>
+                  <x>0</x>
+                  <y>-2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+              </cs340.model.map.DesertHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>-2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[4]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.DesertHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Brick</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>2</x>
+                  <y>-2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[4]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Brick</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.DesertHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Ore</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>2</x>
+                  <y>-1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-2</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Ore</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Brick</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>2</x>
+                  <y>0</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[2]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-2</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>1</x>
+                  <y>1</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[5]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[3]/cs340.model.map.ResourceHex[5]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Sheep</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+            <cs340.model.hexgrid.hex.Hex-array>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-2</x>
+                  <y>2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wood</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>-1</x>
+                  <y>2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Ore</resource>
+              </cs340.model.map.ResourceHex>
+              <cs340.model.map.ResourceHex>
+                <location>
+                  <x>0</x>
+                  <y>2</y>
+                </location>
+                <vertexes>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../cs340.model.map.ResourceHex[2]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/vertexes/cs340.model.hexgrid.vertex.Vertex[5]"/>
+                  <cs340.model.hexgrid.vertex.Vertex reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[4]/vertexes/cs340.model.hexgrid.vertex.Vertex[6]"/>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                  <cs340.model.hexgrid.vertex.Vertex>
+                    <value class="cs340.model.hexgrid.vertex.VertexValue">
+                      <ownerIndex>-1</ownerIndex>
+                      <worth>0</worth>
+                    </value>
+                  </cs340.model.hexgrid.vertex.Vertex>
+                </vertexes>
+                <edges>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../cs340.model.map.ResourceHex[2]/edges/cs340.model.hexgrid.edge.Edge[4]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[3]/edges/cs340.model.hexgrid.edge.Edge[5]"/>
+                  <cs340.model.hexgrid.edge.Edge reference="../../../../cs340.model.hexgrid.hex.Hex-array[4]/cs340.model.map.ResourceHex[4]/edges/cs340.model.hexgrid.edge.Edge[6]"/>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                  <cs340.model.hexgrid.edge.Edge>
+                    <value class="cs340.model.hexgrid.edge.EdgeValue">
+                      <ownerIndex>-1</ownerIndex>
+                    </value>
+                  </cs340.model.hexgrid.edge.Edge>
+                </edges>
+                <resource>Wheat</resource>
+              </cs340.model.map.ResourceHex>
+            </cs340.model.hexgrid.hex.Hex-array>
+          </hexes>
+          <offsets>
+            <int>2</int>
+            <int>1</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+          </offsets>
+          <radius>3</radius>
+          <x0>2</x0>
+          <y0>2</y0>
+        </hexGrid>
+        <radius>3</radius>
+        <numbers>
+          <entry>
+            <int>2</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-2</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>3</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>4</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>-2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>5</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-2</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>6</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-2</x>
+                <y>2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>2</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>8</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>9</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>10</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>1</x>
+                <y>1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>-1</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>11</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>0</x>
+                <y>0</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>2</x>
+                <y>-2</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+          <entry>
+            <int>12</int>
+            <set>
+              <cs340.model.hexgrid.hex.HexLocation>
+                <x>2</x>
+                <y>-1</y>
+              </cs340.model.hexgrid.hex.HexLocation>
+            </set>
+          </entry>
+        </numbers>
+        <ports>
+          <cs340.model.map.Port>
+            <location>
+              <x>2</x>
+              <y>1</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>2</x>
+              <y>1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">W</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>2</x>
+              <y>1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+            </validVertex2>
+            <orientation>NW</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-3</x>
+              <y>2</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Wood</inputResource>
+            <validVertex1>
+              <x>-3</x>
+              <y>2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-3</x>
+              <y>2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">E</direction>
+            </validVertex2>
+            <orientation>NE</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>1</x>
+              <y>-3</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Ore</inputResource>
+            <validVertex1>
+              <x>1</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>1</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SW</direction>
+            </validVertex2>
+            <orientation>S</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>3</x>
+              <y>-1</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Sheep</inputResource>
+            <validVertex1>
+              <x>3</x>
+              <y>-1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">W</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>3</x>
+              <y>-1</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+            </validVertex2>
+            <orientation>NW</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-3</x>
+              <y>0</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>-3</x>
+              <y>0</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">E</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-3</x>
+              <y>0</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SE</direction>
+            </validVertex2>
+            <orientation>SE</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-1</x>
+              <y>-2</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Wheat</inputResource>
+            <validVertex1>
+              <x>-1</x>
+              <y>-2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-1</x>
+              <y>-2</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SW</direction>
+            </validVertex2>
+            <orientation>S</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>3</x>
+              <y>-3</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>3</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">SW</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>3</x>
+              <y>-3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">W</direction>
+            </validVertex2>
+            <orientation>SW</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>0</x>
+              <y>3</y>
+            </location>
+            <ratio>3</ratio>
+            <validVertex1>
+              <x>0</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>0</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+            </validVertex2>
+            <orientation>N</orientation>
+          </cs340.model.map.Port>
+          <cs340.model.map.Port>
+            <location>
+              <x>-2</x>
+              <y>3</y>
+            </location>
+            <ratio>2</ratio>
+            <inputResource>Brick</inputResource>
+            <validVertex1>
+              <x>-2</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+            </validVertex1>
+            <validVertex2>
+              <x>-2</x>
+              <y>3</y>
+              <direction class="cs340.model.hexgrid.vertex.VertexDirection">E</direction>
+            </validVertex2>
+            <orientation>NE</orientation>
+          </cs340.model.map.Port>
+        </ports>
+        <robber>
+          <x>0</x>
+          <y>-2</y>
+        </robber>
+      </map>
+      <players>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+      </players>
+      <log>
+        <lines/>
+      </log>
+      <chat>
+        <lines/>
+      </chat>
+      <bank>
+        <brick>24</brick>
+        <wood>24</wood>
+        <sheep>24</sheep>
+        <wheat>24</wheat>
+        <ore>24</ore>
+      </bank>
+      <turnTracker>
+        <status>FirstRound</status>
+        <currentTurn>0</currentTurn>
+        <longestRoad>-1</longestRoad>
+        <largestArmy>-1</largestArmy>
+      </turnTracker>
+      <winner>-1</winner>
+      <version>0</version>
+    </start>
+    <h>
+      <strict>false</strict>
+      <verbose>true</verbose>
+      <commands>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>0</playerIndex>
+          <roadLocation>
+            <x>-1</x>
+            <y>0</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">NE</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>0</playerIndex>
+          <vertexLocation>
+            <x>-1</x>
+            <y>0</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>0</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>1</playerIndex>
+          <roadLocation>
+            <x>0</x>
+            <y>-1</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">NE</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>1</playerIndex>
+          <vertexLocation>
+            <x>0</x>
+            <y>-1</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>1</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>2</playerIndex>
+          <roadLocation>
+            <x>-2</x>
+            <y>1</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">NE</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>2</playerIndex>
+          <vertexLocation>
+            <x>-2</x>
+            <y>1</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>2</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>3</playerIndex>
+          <roadLocation>
+            <x>-1</x>
+            <y>1</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">NE</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>3</playerIndex>
+          <vertexLocation>
+            <x>0</x>
+            <y>1</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>3</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>3</playerIndex>
+          <roadLocation>
+            <x>2</x>
+            <y>0</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">N</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>3</playerIndex>
+          <vertexLocation>
+            <x>2</x>
+            <y>0</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>3</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>2</playerIndex>
+          <roadLocation>
+            <x>3</x>
+            <y>-2</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">NW</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>2</playerIndex>
+          <vertexLocation>
+            <x>3</x>
+            <y>-2</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NW</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>2</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>1</playerIndex>
+          <roadLocation>
+            <x>-1</x>
+            <y>2</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">NW</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>1</playerIndex>
+          <vertexLocation>
+            <x>-2</x>
+            <y>3</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>1</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.PlaceRoad>
+          <type>buildRoad</type>
+          <playerIndex>0</playerIndex>
+          <roadLocation>
+            <x>1</x>
+            <y>2</y>
+            <direction class="cs340.model.hexgrid.edge.EdgeDirection">N</direction>
+          </roadLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceRoad>
+        <cs340.model.commands.PlaceSettlement>
+          <type>buildSettlement</type>
+          <playerIndex>0</playerIndex>
+          <vertexLocation>
+            <x>1</x>
+            <y>2</y>
+            <direction class="cs340.model.hexgrid.vertex.VertexDirection">NE</direction>
+          </vertexLocation>
+          <free>true</free>
+        </cs340.model.commands.PlaceSettlement>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>0</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>0</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>0</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>1</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>1</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>2</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>2</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>3</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>3</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>0</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>0</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>1</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>1</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>2</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>2</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>3</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.FinishTurn>
+          <type>finishTurn</type>
+          <playerIndex>3</playerIndex>
+        </cs340.model.commands.FinishTurn>
+        <cs340.model.commands.RollDice>
+          <type>rollNumber</type>
+          <playerIndex>0</playerIndex>
+          <number>10</number>
+        </cs340.model.commands.RollDice>
+        <cs340.model.commands.MaritimeTrade>
+          <type>maritimeTrade</type>
+          <playerIndex>0</playerIndex>
+          <inputResource>Sheep</inputResource>
+          <outputResource>Ore</outputResource>
+          <ratio>3</ratio>
+        </cs340.model.commands.MaritimeTrade>
+        <cs340.model.commands.MaritimeTrade>
+          <type>maritimeTrade</type>
+          <playerIndex>0</playerIndex>
+          <inputResource>Sheep</inputResource>
+          <outputResource>Wheat</outputResource>
+          <ratio>3</ratio>
+        </cs340.model.commands.MaritimeTrade>
+      </commands>
+    </h>
+    <id>3</id>
+    <aiPlayers/>
+  </game>
+  <gameID>3</gameID>
+</cs340.model.GameSave>

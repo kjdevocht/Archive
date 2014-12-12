@@ -1,0 +1,431 @@
+Buildfile: /home/curtis/Documents/cs340/settlers/build.xml
+
+init:
+
+compile:
+    [javac] Compiling 2 source files to /home/curtis/Documents/cs340/settlers/java/build
+
+package:
+      [jar] Building jar: /home/curtis/Documents/cs340/settlers/java/dist/catan-client.jar
+      [jar] Building jar: /home/curtis/Documents/cs340/settlers/java/dist/catan-server.jar
+
+our-server:
+     [java] [DEBUG]		Logger Initialized
+     [java] [INFO]		Using Port: 8081
+     [java] [INFO]		Creating Endpoints
+     [java] [INFO]		Starting Server
+     [java] [INFO]		Create Game Handler
+     [java] [DEBUG]		Request Body: {"randomNumbers": false, "randomPorts": false, "randomTiles": false, "name": "Game Name1"}
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/curtis/Documents/cs340/settlers/build.xml
+
+init:
+
+compile:
+
+package:
+
+our-server:
+     [java] [DEBUG]		Logger Initialized
+     [java] [INFO]		Using Port: 8081
+     [java] [INFO]		Creating Endpoints
+     [java] [INFO]		Starting Server
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "player1", "password": "player1"}
+     [java] [INFO]		Create Game Handler
+     [java] [DEBUG]		Request Body: {"randomNumbers": false, "randomPorts": false, "randomTiles": false, "name": "test_game_0"}
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "red", "id": 0}
+     [java] [DEBUG]		
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "green", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!RED GREEN
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "blue", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!GREEN BLUE
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "yellow", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!BLUE YELLOW
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "puce", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!YELLOW PUCE
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "brown", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!PUCE BROWN
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "white", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!BROWN WHITE
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "purple", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!WHITE PURPLE
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "orange", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!PURPLE ORANGE
+     [java] java.lang.Exception: Could not add game
+     [java] 	at server.handler.games.JoinGameHandler.handle(JoinGameHandler.java:41)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "red", "id": 0}
+     [java] [DEBUG]		
+     [java] [DEBUG]		HERE!!!ORANGE RED
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "player2", "password": "player2"}
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "red", "id": 0}
+     [java] [DEBUG]		
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "blue", "id": 0}
+     [java] [DEBUG]		
+     [java] java.lang.Exception: Could not add game
+     [java] 	at server.handler.games.JoinGameHandler.handle(JoinGameHandler.java:41)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "player3", "password": "player3"}
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "blue", "id": 0}
+     [java] [DEBUG]		
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "white", "id": 0}
+     [java] [DEBUG]		
+     [java] java.lang.Exception: Could not add game
+     [java] 	at server.handler.games.JoinGameHandler.handle(JoinGameHandler.java:41)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "player4", "password": "player4"}
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "white", "id": 0}
+     [java] [DEBUG]		
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "puce", "id": 0}
+     [java] [DEBUG]		
+     [java] java.lang.Exception: Could not add game
+     [java] 	at server.handler.games.JoinGameHandler.handle(JoinGameHandler.java:41)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] java.lang.Exception: Could not add game
+     [java] 	at server.handler.games.JoinGameHandler.handle(JoinGameHandler.java:41)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "player5", "password": "player5"}
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "puce", "id": 0}
+     [java] [DEBUG]		
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "orange", "id": 0}
+     [java] [DEBUG]		
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] [INFO]		Join Game Handler
+     [java] [DEBUG]		Request Body: {"color": "green", "id": 0}
+     [java] [DEBUG]		
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+     [java] java.lang.Exception: Could not add game
+     [java] 	at server.handler.games.JoinGameHandler.handle(JoinGameHandler.java:41)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/curtis/Documents/cs340/settlers/build.xml
+
+init:
+
+compile:
+
+package:
+
+our-server:
+     [java] [DEBUG]		Logger Initialized
+     [java] [INFO]		Using Port: 8081
+     [java] [INFO]		Creating Endpoints
+     [java] [INFO]		Starting Server
+     [java] [INFO]		Create Game Handler
+     [java] [DEBUG]		Request Body: {"randomNumbers": false, "randomPorts": false, "randomTiles": false, "name": "test_game_5"}
+     [java] [INFO]		Create Game Handler
+     [java] [DEBUG]		Request Body: {"randomNumbers": false, "randomPorts": false, "randomTiles": false, "name": "test_game_5"}
+     [java] [INFO]		Create Game Handler
+     [java] [DEBUG]		Request Body: {"randomNumbers": false, "randomPorts": false, "randomTiles": false, "name": "test_game_5"}
+     [java] [INFO]		Create Game Handler
+     [java] [DEBUG]		Request Body: {"randomNumbers": false, "randomPorts": false, "randomTiles": false, "name": "test_game_5"}
+     [java] [INFO]		Create Game Handler
+     [java] [DEBUG]		Request Body: {"randomNumbers": false, "randomPorts": false, "randomTiles": false, "name": "test_game_5"}
+     [java] [INFO]		List Games Handler
+     [java] [DEBUG]		Request Body: 
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/curtis/Documents/cs340/settlers/build.xml
+
+init:
+
+compile:
+
+package:
+
+our-server:
+     [java] [DEBUG]		Logger Initialized
+     [java] [INFO]		Using Port: 8081
+     [java] [INFO]		Creating Endpoints
+     [java] [INFO]		Starting Server
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "player1", "password": "player1"}
+     [java] [INFO]		Login User Handler
+     [java] [DEBUG]		Request Body: {"username": "player1", "password": "player1"}
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/curtis/Documents/cs340/settlers/build.xml
+
+init:
+
+compile:
+
+package:
+
+our-server:
+     [java] [DEBUG]		Logger Initialized
+     [java] [INFO]		Using Port: 8081
+     [java] [INFO]		Creating Endpoints
+     [java] [INFO]		Starting Server
+     [java] java.lang.NullPointerException
+     [java] 	at server.handler.user.RegisterHandler.handle(RegisterHandler.java:40)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "player1", "password": "player1"}	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)[INFO]		Register User Handler
+     [java] 
+     [java] 	at java.lang.Thread.run(Thread.java:745)[DEBUG]		Request Body: {"username": "player1", "password": "player1"}
+     [java] java.lang.NullPointerException
+     [java] [INFO]		Register User Handler
+     [java] 
+     [java] 	at server.handler.user.RegisterHandler.handle(RegisterHandler.java:40)[DEBUG]		Request Body: {"username": "player1", "password": "player1"}
+     [java] 
+     [java] [INFO]		Register User Handler	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] [DEBUG]		Request Body: {"username": "12", "password": "player1"}	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 
+     [java] [INFO]		Register User Handler
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)[DEBUG]		Request Body: {"username": "123", "password": "player1"}
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 
+     [java] [INFO]		Register User Handler	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)[DEBUG]		Request Body: {"username": "1234", "password": "player1"}
+     [java] 
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)[INFO]		Register User Handler
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 
+     [java] [DEBUG]		Request Body: {"username": "12345678", "password": "player1"}	at java.lang.Thread.run(Thread.java:745)
+     [java] 
+     [java] java.lang.NullPointerException
+     [java] 	at server.handler.user.RegisterHandler.handle(RegisterHandler.java:40)[INFO]		Register User Handler
+     [java] 
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)[DEBUG]		Request Body: {"username": "a---b", "password": "player1"}
+     [java] 
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] java.lang.NullPointerException
+     [java] 	at server.handler.user.RegisterHandler.handle(RegisterHandler.java:40)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "a___b", "password": "player1"}
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "a$$$$b", "password": "player1"}
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "11111", "password": "1234"}
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "11112", "password": "12345"}
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "11113", "password": "a---b"}
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "11114", "password": "a____b"}
+     [java] [INFO]		Register User Handler
+     [java] [DEBUG]		Request Body: {"username": "11115", "password": "a&&&&b"}
+     [java] java.lang.NullPointerException
+     [java] 	at server.handler.user.RegisterHandler.handle(RegisterHandler.java:40)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] java.lang.NullPointerException
+     [java] 	at server.handler.user.RegisterHandler.handle(RegisterHandler.java:40)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+     [java] java.lang.NullPointerException
+     [java] 	at server.handler.user.RegisterHandler.handle(RegisterHandler.java:40)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+     [java] 	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+     [java] 	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+     [java] 	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+     [java] 	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+     [java] 	at java.lang.Thread.run(Thread.java:745)
+
+BUILD SUCCESSFUL
+Total time: 1 second

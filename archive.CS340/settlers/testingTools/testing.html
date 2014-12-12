@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="requests.js"></script>
+<script>
+$(document).ready(function(){
+	$("#fourPlayerGame").click(function() {
+		Requests.makeFourPlayerGame();
+	});
+	$("#onePlayerGame").click(function() {
+		Requests.makeOnePlayerGame();
+	});
+	$("#saveCurrentState").click(function() {
+		var text = $("#stateName").val();
+		if(!text || text.length == 0)
+			return;
+		Requests.saveCurrentState(text);
+		console.log(Requests.getSavedCommands())
+	});
+
+	var dictionary = Requests.getSavedCommands();
+	for (var key in dictionary) {
+	  if (dictionary.hasOwnProperty(key)) {
+	    $("#states").append('<button id="command'+key.replace(/ /g, '')+'" type="button">'+key+'</button>')
+	    var request = dictionary[key];
+	    var localkey = key;
+	    var string = "#command"+localkey.replace(/ /g, '')
+	    console.log(string)
+	    var addKey = function(request, string) {
+	    	$(string).click(function() {
+		    	Requests.loadState(request);
+		    });
+	    }
+	    addKey(request, string)
+	    
+	  }
+	}
+
+});
+</script>
+</head>
+<body>
+<button id="fourPlayerGame" type="button">Make Four Player Game</button>
+<button id="onePlayerGame" type="button">Make One Player Game</button>
+<input type="text" id="stateName" placeholder="stateName">
+<button id="saveCurrentState" type="button">Save Current State</button>
+<p>States</p>
+<div id="states">
+</div>
+</body>
+</html>

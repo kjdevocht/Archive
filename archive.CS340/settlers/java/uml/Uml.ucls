@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="serverProxy.ClientCommunicator" project="java" 
+    file="/java/src/serverProxy/ClientCommunicator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="170" y="294"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="serverProxy.IRequest" project="java" 
+    file="/java/src/serverProxy/IRequest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="386"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="serverProxy.IResponse" project="java" 
+    file="/java/src/serverProxy/IResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1264" y="356"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="serverProxy.IServer" project="java" file="/java/src/serverProxy/IServer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="499" y="209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="serverProxy.ITranslator" project="java" 
+    file="/java/src/serverProxy/ITranslator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="230" y="690"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="serverProxy.MockServer" project="java" 
+    file="/java/src/serverProxy/MockServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="430" y="358"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="serverProxy.RequestException" project="java" 
+    file="/java/src/serverProxy/RequestException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="429" y="523"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="serverProxy.ServerProxy" project="java" 
+    file="/java/src/serverProxy/ServerProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="684" y="440"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="serverProxy.response.ListAIResponse" project="java" 
+    file="/java/src/serverProxy/response/ListAIResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1568" y="618"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="serverProxy.response.FailSuccessResponse" project="java" 
+    file="/java/src/serverProxy/response/FailSuccessResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1025" y="617"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="serverProxy.response.GameListResponse" project="java" 
+    file="/java/src/serverProxy/response/GameListResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2040" y="629"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="serverProxy.response.GameResponse.GameResponsePlayer" project="java" 
+    file="/java/src/serverProxy/response/GameResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1367" y="1366"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="serverProxy.response.GameResponse" project="java" 
+    file="/java/src/serverProxy/response/GameResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1381" y="962"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="client.model.BonusTracker" project="java" 
+    file="/java/src/client/model/BonusTracker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1893" y="1902"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="client.model.ClientModel" project="java" 
+    file="/java/src/client/model/ClientModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="801" y="1769"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="client.model.DevCardList" project="java" 
+    file="/java/src/client/model/DevCardList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="2887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="client.model.IBonusTracker" project="java" 
+    file="/java/src/client/model/IBonusTracker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1576" y="1910"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="client.model.IClientModel" project="java" 
+    file="/java/src/client/model/IClientModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2223" y="1212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="client.model.IDevCardList" project="java" 
+    file="/java/src/client/model/IDevCardList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="709" y="2887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="20" language="java" name="client.model.IPlayer" project="java" 
+    file="/java/src/client/model/IPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="218" y="1796"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="21" language="java" name="client.model.IResourceList" project="java" 
+    file="/java/src/client/model/IResourceList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="872" y="3693"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="22" language="java" name="client.model.ITradeOffer" project="java" 
+    file="/java/src/client/model/ITradeOffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1277" y="2480"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="23" language="java" name="client.model.ITurnTracker" project="java" 
+    file="/java/src/client/model/ITurnTracker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1682" y="1542"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="24" language="java" name="client.model.Player" project="java" file="/java/src/client/model/Player.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="348" y="3746"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="client.model.ResourceList" project="java" 
+    file="/java/src/client/model/ResourceList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1189" y="3676"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="client.model.TradeOffer" project="java" 
+    file="/java/src/client/model/TradeOffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1321" y="2904"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="client.model.TurnTracker" project="java" 
+    file="/java/src/client/model/TurnTracker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1908" y="1498"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="client.model.map.City" project="java" file="/java/src/client/model/map/City.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="364" y="2552"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="client.model.map.EdgeValue" project="java" 
+    file="/java/src/client/model/map/EdgeValue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="650" y="2414"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="30" language="java" name="client.model.map.ICatanMap" project="java" 
+    file="/java/src/client/model/map/ICatanMap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2206" y="2254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="31" language="java" name="client.model.map.ICommunity" project="java" 
+    file="/java/src/client/model/map/ICommunity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="112" y="2741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="32" language="java" name="client.model.map.IEdgeValue" project="java" 
+    file="/java/src/client/model/map/IEdgeValue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="613" y="2621"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="33" language="java" name="client.model.map.IHex" project="java" 
+    file="/java/src/client/model/map/IHex.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1924" y="3289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="34" language="java" name="client.model.map.IPort" project="java" 
+    file="/java/src/client/model/map/IPort.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1652" y="3157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="35" language="java" name="client.model.map.Port" project="java" file="/java/src/client/model/map/Port.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1591" y="3501"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="client.model.map.Settlement" project="java" 
+    file="/java/src/client/model/map/Settlement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="104" y="2466"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="37" language="java" name="client.model.message.IMessageLine" project="java" 
+    file="/java/src/client/model/message/IMessageLine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2408" y="1744"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="38" language="java" name="client.model.message.IMessageList" project="java" 
+    file="/java/src/client/model/message/IMessageList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1574" y="1730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="39" language="java" name="client.model.message.MessageLine" project="java" 
+    file="/java/src/client/model/message/MessageLine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2154" y="1733"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="client.model.message.MessageList" project="java" 
+    file="/java/src/client/model/message/MessageList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1861" y="1725"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="serverProxy.Translator" project="java" 
+    file="/java/src/serverProxy/Translator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="234" y="1109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="client.model.map.LocationComparer" project="java" 
+    file="/java/src/client/model/map/LocationComparer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2246" y="2748"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="client.model.map.CatanMap" project="java" 
+    file="/java/src/client/model/map/CatanMap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1739" y="2702"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="44">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="45" name="deck"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="47">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="48">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="49" name="messages"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="52" name="oldDevCards"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="55" name="settlements"/>      
+      <multiplicity id="56" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="57">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="58">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <realization id="59">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="60">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="61" name="turnTracker"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="64" name="hexes">        
+        <position height="16" width="38" x="1892" y="3045"/>      
+      </attribute>      
+      <multiplicity id="65" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="66">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <realization id="67">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="68">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="69">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="70" name="owner"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="73" name="owner"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="76" name="localPlayer"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="79" name="ports"/>      
+      <multiplicity id="80" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="81">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="83">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="84" name="players"/>      
+      <multiplicity id="85" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="86">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="87">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="88" name="server"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="90">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <association id="91">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="92" name="catanMap"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="94">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="95">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="96" name="updatableModel"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="98">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="101">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="102">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <realization id="103">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="34"/>  
+  </realization>  
+  <association id="104">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="105" name="players"/>      
+      <multiplicity id="106" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="107">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="38"/>  
+  </realization>  
+  <association id="108">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="109" name="owner"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="111">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="112" name="chat"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="114">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <nesting id="115">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <association id="116">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="117" name="resources"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="119">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="120">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="121" name="bank"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="124" name="gameList"/>      
+      <multiplicity id="125" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="127" name="tradeOffer"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="130" name="resources"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="132">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="37"/>  
+  </realization>  
+  <association id="133">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="134" name="bonusTracker"/>      
+      <multiplicity id="135" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="136">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="137" name="log"/>      
+      <multiplicity id="138" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="139">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="140" name="players"/>      
+      <multiplicity id="141" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="143" name="roads"/>      
+      <multiplicity id="144" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

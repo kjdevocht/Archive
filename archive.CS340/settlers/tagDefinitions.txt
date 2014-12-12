@@ -1,0 +1,4 @@
+.obviousGetter:m:Precondition: None.<p>Postcondition: Retrieved the value.
+.obviousSetter:m:Precondition: Value is valid.<p>Postcondition: Value has been updated.
+.pre:a:Precondition: 
+.post:a:Postcondition: 

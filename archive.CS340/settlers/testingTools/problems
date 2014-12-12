@@ -1,0 +1,34 @@
+[{"vertexLocation":{"y":0,"x":1,"direction":"NW"},"playerIndex":0,"type":"buildSettlement","free":true},{"playerIndex":0,"roadLocation":{"y":0,"x":0,"direction":"NE"},"type":"buildRoad","free":true},{"playerIndex":0,"type":"finishTurn"},{"playerIndex":1,"roadLocation":{"y":-1,"x":0,"direction":"SE"},"type":"buildRoad","free":true},{"vertexLocation":{"y":-1,"x":0,"direction":"E"},"playerIndex":1,"type":"buildSettlement","free":true},{"playerIndex":1,"type":"finishTurn"},{"playerIndex":2,"roadLocation":{"y":0,"x":1,"direction":"NE"},"type":"buildRoad","free":true},{"vertexLocation":{"y":0,"x":1,"direction":"E"},"playerIndex":2,"type":"buildSettlement","free":true},{"playerIndex":2,"type":"finishTurn"},{"playerIndex":3,"roadLocation":{"y":1,"x":0,"direction":"SW"},"type":"buildRoad","free":true},{"vertexLocation":{"y":1,"x":0,"direction":"W"},"playerIndex":3,"type":"buildSettlement","free":true},{"playerIndex":3,"type":"finishTurn"},{"playerIndex":3,"roadLocation":{"y":0,"x":0,"direction":"N"},"type":"buildRoad","free":true},{"vertexLocation":{"y":0,"x":0,"direction":"NW"},"playerIndex":3,"type":"buildSettlement","free":true},{"playerIndex":3,"type":"finishTurn"},{"playerIndex":2,"roadLocation":{"y":1,"x":-1,"direction":"SW"},"type":"buildRoad","free":true},{"vertexLocation":{"y":1,"x":-1,"direction":"W"},"playerIndex":2,"type":"buildSettlement","free":true},{"playerIndex":2,"type":"finishTurn"},{"playerIndex":1,"roadLocation":{"y":1,"x":0,"direction":"S"},"type":"buildRoad","free":true},{"vertexLocation":{"y":1,"x":0,"direction":"SE"},"playerIndex":1,"type":"buildSettlement","free":true},{"playerIndex":1,"type":"finishTurn"},{"vertexLocation":{"y":0,"x":-1,"direction":"NW"},"playerIndex":0,"type":"buildSettlement","free":true},{"playerIndex":0,"roadLocation":{"y":0,"x":-1,"direction":"NW"},"type":"buildRoad","free":true},{"playerIndex":0,"type":"finishTurn"}] 
+
+X If you click on roll before the timer runs out it locks the Finish Turn from being able to be clicked
+
+X Maritime trade view. If you click on GIVE item then a GET item, then if you click the revert button on the GET item it will undo both the GIVE and the GET.
+
+Maritime trade view. You can trade 4 brick for 1 brick. You should not be able to trade for the same item.
+
+X If you set 1 brick to send, then recieve one of anything else. Then select a player. Close the dialog. Then bring the domestic trade overlay back up. Then do the same. You will see two of each player for the buttons.
+
+X If you set 1 brick to send, then recieve on wood, select a player, the click the recieve button. It will drop the recieve amount to 0 but still let you trade. You should not be able to give something away.
+
+They must be called the initalize player on the turn tracker many times because the number start to look strange after a few turns. They should not be called the init function so often.
+
+X You can play whatever dev card you would like as long as you have one dev card.
+
+Build road card only lets you to set one road and then the game gets stuck
+
+X you can play a road through another players settlement. You should not be able to place a road even if it is continuing of off another player's road if has to go through another's.
+
+X The build road card does not go away after use.
+
+X longest road icon does nto appear
+
+X largest army icon does not appear
+
+
+
+
+
+
+
+
+
